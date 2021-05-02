@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<style>
+body {
+    background-color: #5eb0b2;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("images/homepage image.jpg")
+}
+</style>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script>
+</head>
+
+<!--navigation start-->
+
+<body style="padding-top: 70px">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <img class="logo" src="images/Untitled-2.svg" alt="logo">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
+      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="projects.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Projects </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="photography.html">Photography</a> <a class="dropdown-item" href="visualdesign.html">Visual Design</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="misc.html">Miscellaneous</a> </div>
+      </li>
+      <li class="nav-item"> <a class="nav-link" href="about.html">Who Am I?</a> </li>
+      <li class="nav-item active"> <a class="nav-link" href="contactme.html">Get In Touch<span class="sr-only">(current)</span></a> </li>
+    </ul>
+  </div>
+</nav>
+
+<!--nav end--> 
+
+<!--contact form start-->
+
+<div class="colcontactme wobble-hor-bottom">
+  <form action="mailto:annazurawska1223@gmail.com?Subject=ContactForm" method="post" autocomplete="on">
+    <h1 class="getintouch">Get in touch</h1>
+    <fieldset>
+      <legend>Please complete the form</legend>
+      <div class="aside">
+        <label for="firstname">First name</label>
+        <input class="first" name="firstname" id="firstname" required="required" autofocus="autofocus">
+        <label for="lastname">Last name</label>
+        <input class="last"  name="lastname" id="lastname" required="required">
+        <br>
+        <label for="email">Email Address</label>
+        <input class="email" name="email" id="email" required="required">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Subject</legend>
+      <select class="sub">
+        <option value="work">Work</option>
+        <option value="feedback">Feedback</option>
+        <option value="other">Other</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>How did you find me?</legend>
+      <select>
+        <option value="socialmedia">Social Media</option>
+        <option value="referral">Referral</option>
+        <option value="other">Other</option>
+      </select>
+      <br>
+      <h2 class="message">Message</h2>
+      <textarea name="message" id="message" placeholder="Type your message here"></textarea>
+    </fieldset>
+    <div id="submit">
+      <input class="submitbutton hvr-pulse" type="submit">
+    </div>
+  </form>
+</div>
+
+<!--contact form end--> 
+
+<!--footer start-->
+
+<div id="footer">
+  <div class="container">
+    <div class="text-center center-block"> <a href="https://www.facebook.com"><img class="footericon" src="images/facebookicon.png" alt="facebook"></a> <a href="https://instagram.com"><img class="footericon" src="images/instaicon.png" alt="instagram"></a> <a href="https://twitter.com"><img class="footericon" src="images/twittericon.png" alt="twitter"></a>
+      <p class="copyright"> Copyright &copy; 2019. Anna Zurawska</p>
+    </div>
+  </div>
+</div>
+
+<!--footer end--> 
+
+<script src="js/jquery-3.4.1.min.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
