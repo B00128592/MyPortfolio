@@ -101,7 +101,7 @@ h1 {
 }
 
 .myquote { 
-background: url(images/homepage image.jpg);
+background-image: url("images/homepage image.jpg");
   line-height: 1.4; 
   padding-top: 120px;
 	padding-bottom: 120px;
